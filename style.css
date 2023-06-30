@@ -152,9 +152,24 @@
             letter-spacing: normal;
             margin-top: 130px;
         }
-        .slider h6{
-            font-size: 10px;
-        }
+        
+    }
+    @media screen and (min-width: 768px) and (max-width: 812px) {
+      .slider h1{
+        top: 0%;
+        font-size: 42px;
+        top: 150px;
+      }
+      .slider p{
+        top: 0%;
+        font-size: 10px;
+        top: 230px;
+        letter-spacing: 10px;
+      }
+      .typewriter{
+        top: 30px;
+        font-size: 10px;
+      }
     }
 
       
@@ -472,6 +487,14 @@
             font-size: 18px;
           }
         }
+        @media screen and (min-width: 768px) and (max-width: 812px) {
+          .aboutthechurch{
+            margin: 0%;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 20px;
+          }
+        }
         .youthnames{
           margin-left: 300px;
           margin-top: 20px;
@@ -481,6 +504,13 @@
             margin: 10px;
 
           }          
+        }
+        @media screen and (min-width: 768px) and (max-width: 812px) {
+          .youthnames{
+            margin: 0%;
+            margin-left: 100px;
+            margin-top: 20px;
+          }
         }
 
         .footer1{
@@ -602,6 +632,12 @@
         padding-bottom: 50px;
       }
     }
+    @media screen and (min-width: 768px) and (max-width: 812px) {
+      .formm{
+        margin-left: 30%;
+        margin-right: 30%;
+      }
+    }
 
  
   @media screen and (max-width: 767px) {
@@ -610,6 +646,11 @@
         top: 100px;
       }
   }   
+  @media screen and (min-width: 768px) and (max-width: 812px) {
+    .background img{
+      left: 230px;
+    }
+  }
 
       /* E V E N T S */
       .comingevents h1{
@@ -620,6 +661,11 @@
         .comingevents h1{
           margin-left: 10px;
           font-size: 20px;
+        }
+      }
+      @media screen and (min-width: 768px) and (max-width: 812px) {
+        .comingevents h1{
+          margin-left: 100px;
         }
       }
       .events{
@@ -641,10 +687,17 @@
           margin-top: 30px;
         }
       }
+      @media screen and (min-width: 768px) and (max-width: 812px) {
+        .events{
+          margin-left: 20%;
+        }
+      }
 
       /* C H E N D A T H U R */
+      .christhu{
+        text-align: center;
+      }
       .christhu h1{
-          margin-left: 200px;
           padding-top: 10px;
           color: #0066ff;
       }
@@ -656,6 +709,14 @@
         .christhu{
           text-align: center;
           font-size: 12px;
+        }
+      }
+      @media screen and (min-width: 768px) and (max-width: 812px) {
+        .christhu h1{
+          margin: 0%;
+        }
+        .christhu {
+          text-align: center;
         }
       }
    
