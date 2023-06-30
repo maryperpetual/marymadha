@@ -99,6 +99,54 @@
         position: absolute;
         top: 0%;
     }
+    .container {
+      position: absolute;
+      left: 50%;
+      top: 0%;
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    
+    /* T Y P E W R I T E R */
+    .typewriter {
+      position: absolute;
+      top: 0%;
+      top: 150px;
+      width: 26.5ch;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 4px solid #ffffff;
+      animation: cursor 1s step-start infinite, 
+        text 5s steps(18) alternate infinite;
+    }
+    
+    @keyframes cursor {
+      0%, 100% { 
+        border-color: #ffffff; 
+      }
+    }
+    
+    @keyframes text {
+      0% { 
+        width: 0; 
+      }
+      100% { 
+        width: 26.5ch; 
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .typewriter{
+        font-size: 8px;
+      }
+      
+    }
+
 
     @media screen and (max-width: 767px) {
         .slider h1{
@@ -412,6 +460,8 @@
         /* P A R I S H P A G E */
         .about h1{
           margin-left: 100px;
+          padding-top: 10px;
+          color: #0066ff;
         }
         @media screen and (max-width: 767px) {
           .about h1{
