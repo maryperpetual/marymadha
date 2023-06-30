@@ -639,3 +639,10 @@
           padding-top: 10px;
           color: #0066ff;
       }
+      @media screen and (max-width: 767px) {
+        .christhu h1{
+          margin: 0%;
+          font-size: 20px;
+          text-align: center;
+        }
+      }
