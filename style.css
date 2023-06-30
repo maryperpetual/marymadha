@@ -171,6 +171,19 @@
         font-size: 10px;
       }
     }
+    @media screen and (min-width: 813px) and (max-width: 1440px) {
+      .slider h1{
+        top: 300px;
+      }
+      .slider p{
+        top: 480px;
+        letter-spacing: 10px;
+      }
+      .typewriter{
+        top: 50px;
+        font-size: 12px;
+      }
+    }
 
       
 
