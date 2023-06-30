@@ -743,7 +743,7 @@
       }
       @media screen and (min-width:1024px) and (max-width: 1440px) {
         .events{
-          margin-left: 20%;
+          margin-left: 20%  ;
         }
       }
 
