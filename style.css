@@ -31,7 +31,7 @@
     background-color: #e2e2e2;
     color: white;
   }
-  
+
   .topnav .icon {
     display: none;
   }
@@ -703,7 +703,7 @@
 
       /* E V E N T S */
       .comingevents h1{
-        margin-left: 200px;
+        margin-left: 100px;
         color: #0066ff;
       }
       @media screen and (max-width: 767px) {
