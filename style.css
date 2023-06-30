@@ -99,25 +99,13 @@
         position: absolute;
         top: 0%;
     }
-    .container {
-      position: absolute;
-      left: 50%;
-      top: 0%;
-      color: white;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-size: 12px;
-      font-weight: bold;
-    }
+  
     
     /* T Y P E W R I T E R */
     .typewriter {
       position: absolute;
       top: 0%;
-      top: 150px;
+      top: 10px;
       width: 26.5ch;
       white-space: nowrap;
       overflow: hidden;
