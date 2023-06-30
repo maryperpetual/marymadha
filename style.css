@@ -399,7 +399,7 @@
         }
         @media screen and (max-width: 767px) {
             .footer{
-                
+                margin-top: 20px;
                 border-radius: 60px 60px 0 0;
                 line-height: normal;
                 height: 40px;
