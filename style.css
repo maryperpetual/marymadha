@@ -222,6 +222,7 @@
             -webkit-user-select: none;
             touch-action: manipulation;
             border-radius: 4px;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
           }
           
           .christhuarasar span:first-child {
@@ -288,6 +289,7 @@
             -webkit-user-select: none;
             touch-action: manipulation;
             border-radius: 4px;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
           }
           
           .anthoniyar span:first-child {
