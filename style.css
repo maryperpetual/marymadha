@@ -3,6 +3,10 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
   }
+  @font-face {
+    font-family: tamil;
+    src: url(Fonts/SunTommy\ Tamil.ttf);
+  }
   .topnav {
     overflow: hidden;
     background-color: #f1f1f1;
@@ -88,6 +92,7 @@
         top: 0%;
         top: 500px;
         font-size: 100px;
+        font-family: tamil;
     }
     .slider p{
         position: absolute;
@@ -128,6 +133,8 @@
         width: 26.5ch; 
       }
     }
+ 
+
     @media screen and (max-width: 767px) {
       .typewriter{
         font-size: 8px;
@@ -143,7 +150,7 @@
       
        .slider h1{
             top: 0% ;
-            font-size: 22px;
+            font-size: 16px;
             margin-top: 100px;
         }
         .slider p{
@@ -154,6 +161,7 @@
         }
         
     }
+    
     @media screen and (min-width: 768px) and (max-width: 812px) {
       .slider h1{
         top: 0%;
@@ -195,7 +203,23 @@
         letter-spacing: 8px;
       }
     }
-
+    @media screen and (min-width:812px) and (max-width: 1024px) {
+      .slider h1{
+        top: 200px;
+        font-size: 50px;
+      }
+    }
+    @media screen and (min-width: 1440px) and (max-width: 1980px) {
+      .slider h1{
+        top: 0%;
+        top: 430px;
+        font-size: 80px;
+      }
+      .slider p{
+        top: 600px;
+      }
+  }
+   
       
 
     /* I N F O R M A T I O N */
