@@ -146,7 +146,7 @@
       width: 26.5ch;
       white-space: nowrap;
       overflow: hidden;
-      border-right: 4px solid #ffffff;
+      border-right: 4px solid #0066ff;
       animation: cursor 1s step-start infinite, 
         text 5s steps(18) alternate infinite;
     }
