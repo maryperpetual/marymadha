@@ -1034,6 +1034,36 @@
 
 
 
+/* G A L L E R Y */
+.pallalakuppamg{
+  margin-top: 10px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #0066ff;
+}
+.gallery{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 10px;
+font-weight: 600;
+}
+.image{
+  margin-top: 10px;
+}
+.gallery img{
+  width: 30%;
+  padding: 10px;
+}
+@media screen and (max-width: 767px) {
+   .gallery img{
+    width: 90%;
+    padding: 0%;
+   }
+   
+  }
+
+
 
 
 
