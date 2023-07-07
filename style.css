@@ -120,7 +120,7 @@
         padding: 5px 15px;
         border-radius: 4px;
         backdrop-filter: blur(1px);
-        color: #000000;
+        color: #ffffff;
         font-weight: 600;
     }
     .slider h6{
@@ -1042,11 +1042,11 @@
   background-color: #0066ff;
 }
 .gallery{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin-top: 10px;
-font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  font-weight: 600;
 }
 .image{
   margin-top: 10px;
