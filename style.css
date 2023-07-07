@@ -71,6 +71,20 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* S L I D E R */
     .home{
         width: 100%;
@@ -112,6 +126,15 @@
         top: 0%;
     }
   
+
+
+
+
+
+
+
+
+
     
     /* T Y P E W R I T E R */
     .typewriter {
@@ -226,6 +249,13 @@
         top: 600px;
       }
   }
+
+
+
+
+
+
+
    
       
 
@@ -246,6 +276,17 @@
             padding: 15px;
         }
     }
+
+
+
+
+
+
+
+
+
+
+
 
     /* B I G T E X T */
     .bigtext{
@@ -298,6 +339,15 @@
                 text-align: center;
             }
           }
+
+
+
+
+
+
+
+
+
            /* S U B C H U R C H E S */
           .sub h1{
             font-size: 32px;
@@ -309,6 +359,15 @@
             padding-left: 10px;
            }
         }
+
+
+
+
+
+
+
+
+
 
         /* C H R I S T H U A R S A R */
         .btns{
@@ -380,6 +439,23 @@
             opacity: 1;
             transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
           }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           /* A N T H O N I Y A R */
 
@@ -455,6 +531,17 @@
             
         }
 
+
+
+
+
+
+
+
+
+
+
+
         /* A N B I A M  */
         .anbiyam h1{
             font-size: 32px;
@@ -498,6 +585,17 @@
             margin: 0%;
          }
         }
+
+
+
+
+
+
+
+
+
+
+
         /* F O O T E R */
         .footer{
             
@@ -521,7 +619,44 @@
             }
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         /* P A R I S H P A G E */
+        .about{
+          display: flex;
+        }
+        .btn{
+          float: right;
+          background-color: #0066ff;
+          padding: 10px 30px;
+          border-radius: 4px;
+          border: none;
+          color: white;
+          margin-right: 100px;
+          cursor: pointer;
+          margin-top: -50px;
+        }
+        .btn:hover{
+          background-color: #000000;
+        }
         .about h1{
           margin-left: 100px;
           padding-top: 10px;
@@ -533,6 +668,11 @@
         @media screen and (max-width: 767px) {
           .about h1{
             margin-left: 10px;
+          }
+          .btn{
+            padding: 5px 15px;
+            margin-right: 20px;
+            margin-top: -40px;
           }
         }        
         .aboutthechurch{
@@ -605,6 +745,25 @@
               font-size: 10px;
           }
       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       /* C O N T A C T */
       .background img{
           position: absolute;
@@ -662,6 +821,15 @@
       .msg{
         padding: 50px;
       }
+
+
+
+
+
+
+
+
+
       /* B U T T O N */
         .sendtochurch {
         align-self: center;
@@ -738,6 +906,23 @@
   }
  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       /* E V E N T S */
       .comingevents h1{
         margin-left: 100px;
@@ -791,6 +976,20 @@
           margin-left: 20%  ;
         }
       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       /* C H E N D A T H U R */
       .christhu{
