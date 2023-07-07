@@ -788,6 +788,12 @@
           padding-top: 10px;
           color: #0066ff;
       }
+      .detailss{
+        text-align: center;
+        font-size: 22px;
+        color: #b3b3b3;
+        margin-top: 200px;
+      }
       @media screen and (max-width: 767px) {
         .christhu h1{
           margin: 0%;
