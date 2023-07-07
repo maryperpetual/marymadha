@@ -527,6 +527,9 @@
           padding-top: 10px;
           color: #0066ff;
         }
+        .ourlady{
+          box-shadow: rgba(0, 0, 0, 0.274) 0px 4px 12px;
+        }
         @media screen and (max-width: 767px) {
           .about h1{
             margin-left: 10px;
@@ -540,7 +543,7 @@
         }
         @media screen and (max-width: 767px) {
           .aboutthechurch{
-            margin: 10px;
+            margin: 20px;
             font-size: 18px;
           }
         }
@@ -564,7 +567,7 @@
         }
         @media screen and (max-width: 767px) {
           .youthnames{
-            margin: 10px;
+            margin: 20px;
 
           }          
         }
