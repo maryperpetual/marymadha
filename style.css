@@ -757,6 +757,11 @@
         line-height: 30px;
         margin-top: 30px;
       }
+      .month{
+        color: #0066ff;
+        font-size: 40px;
+        margin-top: 30px;
+      }
       .realmary img{
         border-radius: 10px;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
@@ -767,6 +772,9 @@
           font-size: 12px;
           line-height: normal;
           margin-top: 30px;
+        }
+        .month{
+          font-size: 22px;
         }
       }
       @media screen and (min-width: 768px) and (max-width: 812px) {
@@ -813,3 +821,10 @@
         }
       }
    
+
+
+
+
+
+
+
