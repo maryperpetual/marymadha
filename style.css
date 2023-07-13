@@ -588,7 +588,19 @@
          }
         }
 
-
+        /* G O D */
+        .god{
+          position: relative;
+         
+        }
+        @media screen and (max-width: 767px) {
+          .god img{
+            width: 320px;
+            margin-top: 20px;
+            padding: 10px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          }
+        }
 
 
 
