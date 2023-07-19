@@ -35,13 +35,13 @@
 
       <form class="formm" action="https://formspree.io/f/meqbjqoo" method="post">
         <label for="name">Your Name</label>
-        <input name="Name" id="name" type="name"><br>
+        <input name="Name" id="name" autocomplete="off" type="name"><br>
         <label for="phone-number">Your Mobile.No</label>
-        <input name="phone-number" id="phone-number" type="tel"><br>
+        <input name="phone-number" id="phone-number" autocomplete="off" type="tel"><br>
         <label for="from">You From</label>
-        <input name="from" id="from" type="from"><br>
+        <input name="from" id="from" autocomplete="off" type="from"><br>
         <label for="message">Your Message</label>
-        <input class="msg" name="message" id="message" type="message"><br>
+        <input class="msg" name="message" id="message" autocomplete="off" type="message"><br>
         <button class="sendtochurch" role="button">Send To Church</button>
       </form>
 
@@ -63,7 +63,7 @@ window.onbeforeunload = () => {
     form.reset();
   }
 }
-    </script>
-    
+</script>
+
 </body>
 </html>
