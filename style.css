@@ -761,7 +761,53 @@
           }
       }
 
-
+/* F E S T I V A L */
+.festivalh1{
+  margin: 30px;
+}
+.festivalh1 h1{
+  padding: 30px;
+}
+.festivalh4 h4{
+  margin: 30px;
+  text-align: center;
+  font-size: 82px;
+  color: #0066ff;
+}
+.festivalh4 p{
+  padding: 30px;
+  text-align: center;
+  font-size: 22px;
+}
+.festivalh4{
+  background-color: rgb(245, 245, 245);
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+@media screen and (max-width: 767px) {
+  .festivalh1{
+    margin: 10px;
+  }
+  .festivalh1 h1{
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+  .festivalh4{
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .festivalh4 h4{
+    font-size: 32px;
+    margin: 10px;
+  }
+  .festivalh4 p{
+    font-size: 18px;
+    padding: 10px;
+  }
+}
 
 
 
