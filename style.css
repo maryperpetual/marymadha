@@ -951,6 +951,10 @@
         -webkit-user-select: none;
         touch-action: manipulation;
       }
+      .sendtochurch{
+        margin-left: 40%;
+        margin-top: 30px;
+      }
       
       .sendtochurch::after,
       .sendtochurch::before {
@@ -1017,6 +1021,10 @@
         margin-left: 15%;
         margin-right: 15%;
         padding-bottom: 50px;
+      }
+      .sendtochurch{
+        margin: 55px;
+        margin-top: -40px;
       }
     }
     @media screen and (min-width: 768px) and (max-width: 812px) {
