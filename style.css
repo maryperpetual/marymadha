@@ -548,7 +548,12 @@
         .anbiyambg{
           background-color: #0066ff;
           padding-top: 5px;
-          padding-bottom: 10px;
+          padding-bottom: px;
+          margin-top: 20px;
+          margin-left: 300px;
+          margin-right: 300px;
+          border-radius: 10px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         }
         .anbiyam h1{
             font-size: 32px;
@@ -559,6 +564,13 @@
             .anbiyam h1{
              font-size: 20px;
              padding-left: 20px;
+            }
+            .anbiyambg{
+              padding-top: 5px;
+              padding-bottom: 10px;
+              margin: 0%;
+              margin-left: 10px;
+              margin-right: 10px;
             }
          }
          .anbiyangal h5{
