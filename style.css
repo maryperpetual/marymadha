@@ -545,32 +545,41 @@
 
 
         /* A N B I A M  */
+        .anbiyambg{
+          background-color: #0066ff;
+          padding-top: 5px;
+          padding-bottom: 10px;
+        }
         .anbiyam h1{
             font-size: 32px;
             padding-left: 100px;
+            color: #ffffff;
         }
         @media screen and (max-width: 767px) {
             .anbiyam h1{
              font-size: 20px;
-             padding-left: 10px;
+             padding-left: 20px;
             }
          }
-         .anbiyangal p{
-            font-size: 22px;
+         .anbiyangal h5{
+            font-size: 18px;
             text-align: center;
+            color: white;
+            padding-top: 10px;
          }
          .anbiyangal h6{
             position: relative;
             font-size: 20px;
             text-align: center;
             top: -50px;
+            color: white;
             font-family: tamil;
          }
 
 
          @media screen and (max-width: 767px) {
-         .anbiyangal p{
-            font-size: 12px;
+         .anbiyangal h5{
+            font-size: 16px;
             text-align: center;
             padding-left: 10px;
             padding-right: 10px;
