@@ -1025,7 +1025,8 @@
         padding-bottom: 50px;
       }
       .sendtochurch{
-        margin: 55px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 0px;
       }
     }
