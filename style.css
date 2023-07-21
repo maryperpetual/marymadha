@@ -1179,32 +1179,20 @@
   color: #ffffff;
   background-color: #0066ff;
 }
+
 .gallery{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-top: 10px;
-  font-weight: 600;
-}
-
-
-.image{
-  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .gallery img{
-  width: 30%;
+  width: 90%;
   padding: 10px;
 }
 @media screen and (max-width: 767px) {
-   .gallery img{
-    width: 90%;
-    padding: 0%;
+   .gallery{
+      grid-template-columns: 1fr;
    }
-   .gallery img{
-    padding-top: 5px;
-   }
-   
   }
 
 
