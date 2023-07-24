@@ -8,6 +8,10 @@
     font-family: tamil;
     src: url(Fonts/SunTommy\ Tamil.ttf);
   }
+  @font-face {
+    font-family: wed;
+    src: url(Fonts/stylish.ttf);
+  }
   .topnav {
     overflow: hidden;
     background-color: #faf9f9;
@@ -1279,11 +1283,25 @@
 
   /* W E D D I N G */
   .wedimage{
-    width: 60%;
+    width: 40%;
     margin-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .wedsdetail{
+    position: absolute;
+    top: 0%;
+    text-align: center;
+    width: 100%;
+    top: 450px;
+  }
+  .wedsdetail h1{
+    font-family: wed;
+    font-size: 56px;
+    background: -webkit-linear-gradient(#eee, #0066ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .mail{
     display: flex;
@@ -1300,7 +1318,7 @@
     background-color: white;
     color: #0066ff;
     border: 1px solid #0066ff;
-    transition: 0.3s;
+    transition: 0.5s;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   }
   .sendyourmar{
@@ -1325,6 +1343,18 @@
       margin-right: 30%;
       padding: 6px 10px;
     }
+    .wedsdetail h1{
+      font-size: 38px;
+    }
+    .wedsdetail{
+      top: 280px;
+    }
+    .wedsdetail p{
+      font-size: 12px;
+    }
+    .wedsdetail h2{
+      font-size: 12px;
+    }
   }
 
   @media screen and (min-width: 768px) and (max-width: 850px) {
@@ -1333,6 +1363,9 @@
       margin-right: 40%;
       padding: 10px 15px;
     }
+    .wedimage{
+      width: 90%;
+    }
   }
 
   @media screen and (min-width: 1024px) and (max-width: 1133px) {
@@ -1340,5 +1373,25 @@
       margin-left: 40%;
       margin-right: 40%;
       padding: 10px 10px;
+    }
+    .wedimage{
+      width: 90%;
+    }
+    .wedsdetail h1{
+      font-size: 72px;
+    }
+    .wedsdetail{
+      top: 500px;
+    }
+  }
+  @media screen and (min-width: 1307px) and (max-width: 1440px) {
+    .wedimage{
+      width: 90%;
+    }
+    .wedsdetail{
+      top: 700px;
+    }
+    .wedsdetail h1{
+      font-size: 100px;
     }
   }
