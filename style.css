@@ -1347,7 +1347,7 @@
       font-size: 38px;
     }
     .wedsdetail{
-      top: 280px;
+      top: 250px;
     }
     .wedsdetail p{
       font-size: 12px;
@@ -1365,6 +1365,9 @@
     }
     .wedimage{
       width: 90%;
+    }
+    .wedsdetail{
+      top: 410px;
     }
   }
 
