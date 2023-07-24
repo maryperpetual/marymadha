@@ -1288,7 +1288,7 @@
   .mail{
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: #000000d7;
     text-decoration: none;
     color: white;
     padding: 10px 15px;
@@ -1327,3 +1327,18 @@
     }
   }
 
+  @media screen and (min-width: 768px) and (max-width: 850px) {
+    .mail{
+      margin-left: 40%;
+      margin-right: 40%;
+      padding: 10px 15px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) and (max-width: 1133px) {
+    .mail{
+      margin-left: 40%;
+      margin-right: 40%;
+      padding: 10px 10px;
+    }
+  }
