@@ -1288,9 +1288,27 @@
   .mail{
     display: flex;
     justify-content: center;
+    background-color: #000000;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-left: 45%;
+    margin-right: 45%;
+  }
+  .mail:hover{
+    background-color: white;
+    color: #0066ff;
+    border: 1px solid #0066ff;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   }
   .sendyourmar{
     text-align: center;
+  }
+  .ifanybanns{
+    text-align: center;
+    font-size: 18px;
   }
   @media screen and (max-width: 767px) {
     .wedimage{
@@ -1298,6 +1316,14 @@
     }
     .sendyourmar{
       font-size: 10px;
+    }
+    .ifanybanns{
+      font-size: 10px;
+    }
+    .mail{
+      margin-left: 30%;
+      margin-right: 30%;
+      padding: 6px 10px;
     }
   }
 
