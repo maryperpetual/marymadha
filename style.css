@@ -1303,24 +1303,17 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .mail{
-    display: flex;
-    justify-content: center;
-    background-color: #000000d7;
-    text-decoration: none;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 50px;
-    margin-left: 45%;
-    margin-right: 45%;
+
+  .mailline{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
   }
-  .mail:hover{
-    background-color: white;
-    color: #0066ff;
-    border: 1px solid #0066ff;
-    transition: 0.5s;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  .mailline a{
+    font-size: 18px;
   }
+  
   .sendyourmar{
     text-align: center;
   }
@@ -1332,22 +1325,24 @@
     .wedimage{
       width: 100%;
     }
+    .mailline a{
+      font-size: 10px;
+    }
+    .mailline{
+      padding: 5px;
+    }
     .sendyourmar{
       font-size: 10px;
     }
     .ifanybanns{
       font-size: 10px;
     }
-    .mail{
-      margin-left: 30%;
-      margin-right: 30%;
-      padding: 6px 10px;
-    }
+
     .wedsdetail h1{
       font-size: 38px;
     }
     .wedsdetail{
-      top: 250px;
+      top: 230px;
     }
     .wedsdetail p{
       font-size: 12px;
@@ -1356,27 +1351,35 @@
       font-size: 12px;
     }
   }
-
-  @media screen and (min-width: 768px) and (max-width: 850px) {
-    .mail{
-      margin-left: 40%;
-      margin-right: 40%;
-      padding: 10px 15px;
+  @media screen and (min-width: 425px) and (max-width: 767px) {
+    .wedsdetail{
+      top: 250px;
     }
+  }
+  @media screen and (min-width: 600px) and (max-width: 767px) {
+    .wedsdetail{
+      top: 350px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 850px) {
+
     .wedimage{
       width: 90%;
     }
     .wedsdetail{
-      top: 410px;
+      top: 350px;
     }
   }
-
-  @media screen and (min-width: 1024px) and (max-width: 1133px) {
-    .mail{
-      margin-left: 40%;
-      margin-right: 40%;
-      padding: 10px 10px;
+  @media screen and (min-width: 850px) and (max-width: 1024px) {
+    .wedsdetail{
+      top: 380px;
     }
+    .wedimage{
+      width: 80%;
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1133px) {
+
     .wedimage{
       width: 90%;
     }
