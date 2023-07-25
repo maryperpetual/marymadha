@@ -464,14 +464,14 @@
             background-color: #0066ff;
             padding: 10px 15px;
             border: none;
-            border-radius: 4px;
+            border-radius: 40px;
             margin: 0;
             position: relative;
             cursor: pointer;
             color: white;
             font-size: 18px;
             left: 50%;
-            top: 5px;
+            top: 20px;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -642,21 +642,11 @@
          }
         }
 
-        /* G O D */
-        .god{
-          position: relative;
-         
+        /* B I R T H D A Y */
+        .birthday{
+          padding: 2px 20px;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
-        @media screen and (max-width: 767px) {
-          .god img{
-            width: 320px;
-            margin-top: 20px;
-            padding: 10px;
-            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-          }
-        }
-
-
 
 
 
@@ -910,7 +900,7 @@
       }
       .about h1{
         margin-top: 10px;
-        color: white;
+        color: #0066ff;
       }
       
       @media screen and (max-width: 767px) {
@@ -1268,7 +1258,7 @@
 
 @media screen and (max-width: 767px) {
    .gallery{
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
    }
   }
 
@@ -1282,6 +1272,9 @@
 
 
   /* W E D D I N G */
+  .w{
+    position: relative;
+  }
   .wedimage{
     width: 40%;
     margin-top: 10px;
@@ -1294,7 +1287,7 @@
     top: 0%;
     text-align: center;
     width: 100%;
-    top: 450px;
+    top: 220px;
   }
   .wedsdetail h1{
     font-family: wed;
@@ -1342,7 +1335,7 @@
       font-size: 38px;
     }
     .wedsdetail{
-      top: 230px;
+      top: 90px;
     }
     .wedsdetail p{
       font-size: 12px;
@@ -1353,7 +1346,7 @@
   }
   @media screen and (min-width: 425px) and (max-width: 767px) {
     .wedsdetail{
-      top: 250px;
+      top: 100px;
     }
   }
   @media screen and (min-width: 600px) and (max-width: 767px) {
@@ -1367,12 +1360,12 @@
       width: 90%;
     }
     .wedsdetail{
-      top: 350px;
+      top: 190px;
     }
   }
-  @media screen and (min-width: 850px) and (max-width: 1024px) {
+  @media screen and (min-width: 850px) and (max-width: 1023px) {
     .wedsdetail{
-      top: 380px;
+      top: 250px;
     }
     .wedimage{
       width: 80%;
@@ -1387,7 +1380,7 @@
       font-size: 72px;
     }
     .wedsdetail{
-      top: 500px;
+      top: 300px;
     }
   }
   @media screen and (min-width: 1307px) and (max-width: 1440px) {
@@ -1395,7 +1388,7 @@
       width: 90%;
     }
     .wedsdetail{
-      top: 700px;
+      top: 500px;
     }
     .wedsdetail h1{
       font-size: 100px;
