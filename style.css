@@ -1395,3 +1395,38 @@
       font-size: 100px;
     }
   }
+
+
+  /* CHENDATHUR */
+  .cfimg img{
+    width: 1200px;
+    padding: 20px;
+  }
+  .cfimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cf{
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    .cfimg img{
+      width: 340px;
+      padding: 5px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 850px) {
+    .cfimg img{
+      width: 600px;
+      padding: 5px;
+    }
+  }
+  @media screen and (min-width: 850px) and (max-width: 1024px) {
+    .cfimg img{
+      width: 800px;
+      padding: 5px;
+    }
+  }
